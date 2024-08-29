@@ -17,7 +17,7 @@ switch (valor) {
         console.log("OPCION N°1-> IMPRIME NUMEROS ALEATORIOS Y SEPARA EN OTRO VECTOR LOS NUMEROS PARES");
         for (var i = 0; i <= 30; i++) {
             Num_Aleatorios.push(EntRandom(1, 20));
-            if (Num_Aleatorios[i] % 2 == 0) {
+            if (Num_Aleatorios[i] % 2 != 0) {
                 var conteo = Num_Aleatorios[i];
                 Almacena.push(conteo);
             }
