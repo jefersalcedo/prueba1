@@ -5,28 +5,13 @@ function EntRandom(min, max) {
 }
 
 //TALLER VECTORES 
-var valor = 1;
+var valor = 2;
 var Num_Aleatorios = [];
 var Almacena = []; //arreglos primer punto(case 1)
 var Mayor_Menor = []; //arreglo segundo punto(case 2)
 var Busca_Mayor = []; //arreglo tercer punto(case 3)
 var cuenta = []; //arreglo cuarto punto(case 4)
 switch (valor) {
-    case 1:
-        console.log("*");
-        console.log("OPCION N°1-> IMPRIME NUMEROS ALEATORIOS Y SEPARA EN OTRO VECTOR LOS NUMEROS PARES");
-        for (var i = 0; i <= 30; i++) {
-            Num_Aleatorios.push(EntRandom(1, 20));
-            if (Num_Aleatorios[i] % 2 == 0) {
-                var conteo = Num_Aleatorios[i];
-                Almacena.push(conteo);
-            }
-        }
-        console.log("VECTOR DE ALEATORIOS ↓");
-        console.log(Num_Aleatorios);
-        console.log("VECTOR DE PARES ↓");
-        console.log(Almacena);
-        break;
     case 2:
         console.log("*");
         console.log("OPCION N°2-> ORDENA DE MAYOR A MENOR LOS NUMEROS ALEATORIOS GENERADOS");
